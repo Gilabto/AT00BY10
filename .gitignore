@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Environment variables
+.env
+
+# OS / editor files
+.DS_Store
+``
