@@ -79,6 +79,7 @@ The GitHub Actions workflow currently shows a failing status. This is due to a k
 Although the workflow is correctly configured and all unit tests pass locally with full coverage, GitHub-hosted runners may still report an exit code caused by deprecated internal runtimes used by official GitHub Actions (such as actions/checkout and actions/setup-node).
 This issue is external to the project code and test implementation.
 All tests execute successfully in a local environment, and the CI configuration follows recommended best practices.
+The project was tested using Node.js v24.13.1. All dependencies were verified to be compatible with the selected Node.js version.
 
 Coverage Reporting
 Test coverage reporting was integrated using Coveralls.
